@@ -1,13 +1,12 @@
 import "./App.css";
 import BasicModal from "./BasicModal.jsx";
 import ImageCarousel from "./ImageCarousel.jsx";
-import DeepSeek from "./DeepSeek.jsx";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
 
 import { useState, useEffect, useRef } from "react";
-import { AppBar, Toolbar, Container, Box, Typography } from "@mui/material";
+import { AppBar, Toolbar, Box, Typography } from "@mui/material";
 import logo from "./assets/block-question.png";
 
 const images = [
